@@ -66,5 +66,6 @@ class NvidiaGPUs(Enum):
 
 
 class SortingOptions(Enum):
-    POPULARITY = "t&bl1"
-    PRICE_LOWEST = "p&bl1"
+    POPULARITY = "t"
+    PRICE_LOWEST = "p"
+    PRICE_HIGHEST = "-p"

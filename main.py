@@ -105,7 +105,7 @@ if __name__ == "__main__":
     ghAPI = GeizhalsPyAPI(baseURL=BaseURL.DE_DOMAIN.value)
     entries_dict = ghAPI.get_entries(
         cat=CathegoryKeywords.GPU_PCIE,
-        product=NvidiaGPUs.RTX2070S,
+        product=NvidiaGPUs.RTX3070,
         sorting=SortingOptions.PRICE_LOWEST.value,
         nr_of_entries=10,
     )
