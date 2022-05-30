@@ -9,7 +9,7 @@ class BaseURL(Enum):
     UK_DOMAIN = "https://skinflint.co.uk/"
 
 
-class CathegoryKeywords(Enum):
+class CategoryKeywords(Enum):
     GPU_PCIE = "gra16_512"
     CPU_AMD = "cpuamdam4"
     CPU_INTEL = "cpu1151"
